@@ -1,0 +1,55 @@
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px 6px 16px;
+}
+.menuText {
+  color: var(--midnight-green);
+  font-size: 16px;
+  line-height: 20.16px;
+}
+.leaf {
+  width: 10px;
+  height: 16px;
+  margin: 2px;
+  background: var(--fluorescent-blue);
+  border-radius: 16px 0 16px 0;
+  position: relative;
+}
+.leafInactive {
+  width: 10px;
+  height: 16px;
+  margin: 2px;
+  background: var(--sea-serpent);
+  border-radius: 16px 0 16px 0;
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 2px;
+  right: -12px;
+  background-color: var(--sea-serpent);
+  color: var(--fluorescent-blue);
+  border-radius: 50%;
+  padding: 1px 1px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+.registerButton {
+    color: var(--midnight-green);
+    background-color: var(--calamansi);
+    padding: 7px 18px 8px 18px;
+    border-radius: 24px 0px 24px 0px;
+    cursor: pointer;
+}

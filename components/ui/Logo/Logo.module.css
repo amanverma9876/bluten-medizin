@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaf {
+  width: 20px;
+  height: 32px;
+  margin: 2px;
+  background: var(--fluorescent-blue);
+  border-radius: 20px 0 20px 0;
+  position: relative;
+}
+.logoText {
+  font-size: 36px;
+  line-height: 45.36px;
+  padding: 16px 6px 16px 6px;
+  color: var(--midnight-green);
+}

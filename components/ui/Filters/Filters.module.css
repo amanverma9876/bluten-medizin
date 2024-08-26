@@ -1,0 +1,11 @@
+.applyFilter {
+  background-color: var(--calamansi);
+  padding: 7px 18px 8px 18px;
+  border-radius: 24px 0px 24px 0px;
+  cursor: pointer;
+}
+.checkboxItem {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

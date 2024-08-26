@@ -1,0 +1,35 @@
+.footerContainer {
+  background-color: var(--metallic-seaweed);
+  padding: 24px 96px 24px 96px;
+  border-radius: 30px 30px 0 0;
+}
+.footerContent {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footerContent ul {
+  list-style: none;
+}
+.sectionOne {
+  justify-self: baseline;
+}
+.sectionTwo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: ;
+}
+.sectionTwoItem {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.leaf {
+  width: 10px;
+  height: 16px;
+  margin: 2px;
+  background: var(--fluorescent-blue);
+  border-radius: 16px 0 16px 0;
+  position: relative;
+}

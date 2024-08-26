@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sea-serpent);
+  padding: 6px 12px 6px 12px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.text {
+    color: var(--midnight-green);
+}
+.switch {
+  display: inline-block;
+}
+.switch input {
+  display: none;
+}
+
+.switch label {
+  display: block;
+  width: 27px;
+  height: 9px;
+  border-radius: 15px;
+  background-color: var(--sea-serpent);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.switch label::after {
+  content: "";
+  position: absolute;
+  margin-top: -2px;
+  display: inherit;
+  width: 15px;
+  height: 15px;
+  border-radius: 12px;
+  background: var(--visible-sea-serpent);
+  transition: 0.3s;
+}
+
+.switch input:checked ~ label {
+  background-color: var(--sea-serpent);
+}
+
+.switch input:checked ~ label::after {
+  translate: 15px 0;
+  background: var(--visible-sea-serpent);
+}
+
+.switch input:disabled ~ label {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

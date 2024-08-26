@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 4px;
+  gap: 10px;
+  padding: 6px 12px 6px 12px;
+  background-color: var(--sea-serpent);
+}
+.text {
+  font-size: 16px;
+  color: var(--dark-slate-gray);
+}
+.arrow {
+  position: relative;
+  border-radius: 50%;
+}
+
+.arrow::after {
+  content: "";
+  position: relative;
+  display: block;
+  margin: 4px;
+  top: -2px;
+  width: 9.45px;
+  height: 9.45px;
+  border-top: 4px solid var(--visible-sea-serpent);
+  border-left: 4px solid var(--visible-sea-serpent);
+}
+.arrow::after {
+  transform: rotate(225deg);
+}

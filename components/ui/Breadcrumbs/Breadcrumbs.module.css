@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  color: var(--fluorescent-blue);
+  padding: 6px 16px 6px 16px;
+}
+.textActive {
+  color: var(--midnight-green);
+  padding: 6px 16px 6px 16px;
+}
+.arrow {
+  padding: 6px;
+}

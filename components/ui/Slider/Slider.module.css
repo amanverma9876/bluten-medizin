@@ -1,0 +1,42 @@
+.sliderContainer {
+  position: relative;
+  width: 300px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.sliderBar {
+  position: absolute;
+  height: 10px;
+  background: #007bff;
+  border-radius: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.sliderHandleBack {
+  width: 10px;
+  height: 16px;
+  margin: 2px;
+  background: var(--fluorescent-blue);
+  border-radius: 16px 0 16px 0;
+  position: relative;
+  transform: translateX(-50%);
+  transform: translateY(-20%);
+}
+/* .sliderHandleFront {
+    width: 10px;
+    height: 16px;
+    margin: 2px;
+    background: var(--fluorescent-blue);
+    border-radius: 16px 0 16px 0;
+    position: relative;
+    transform: translateX(-10%);
+    transform: translateY(-20%);
+  } */
+/* Optional: Add some hover effects for the handles */
+.sliderHandle:hover {
+  background: #0056b3;
+}

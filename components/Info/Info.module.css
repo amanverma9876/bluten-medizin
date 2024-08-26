@@ -1,0 +1,14 @@
+.pricingBtn {
+  border-radius: 24px 0px 24px 0px;
+  border: 2px solid var(--fluorescent-blue);
+  text-align: center;
+  font-size: 14px;
+  padding: 7px 20px 8px 20px;
+  color: var(--midnight-green);
+}
+.prelimFilters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
